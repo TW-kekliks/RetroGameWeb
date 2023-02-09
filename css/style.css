@@ -323,3 +323,19 @@ h6,
     width: 120px;
     height: 120px;
 }
+
+.row-striped:nth-of-type(odd){
+    width: 45%;
+    background-color: rgba(6, 163, 218, .7);
+    border-left: 4px #000000 solid;
+  }
+  
+  .row-striped:nth-of-type(even){
+    width: 45%;
+    background-color: rgba(6, 163, 218, .7);
+    border-left: 4px #efefef solid;
+  }
+  
+  .row-striped {
+      padding: 15px 0;
+  }
